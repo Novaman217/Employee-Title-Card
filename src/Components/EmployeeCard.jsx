@@ -24,18 +24,18 @@ const EmployeeCard = ({ employee, index}) => {
     return (
       <div className="w-full max-w-2xl bg-white rounded-r-full shadow-md overflow-hidden border border-slate-300 flex items-stretch">
         
-        <div className="w-6/12 bg-blue-800 p-8 text-white flex flex-col justify-between h-60">
+        <div className="w-6/12 bg-blue-500 p-10 text-white flex flex-col justify-left h-50">
           
-          <h3 className="text-3xl md:text-4xl font-normal leading-tight tracking-tight font-light">{name}</h3>
+          <h3 className="text-3xl md:text-4xl font-normal leading-tight tracking-tight text-pretty font-light">{name}</h3>
           
           
           <div className="mt-4">
-            <p className="text-lg md:text-xl text-stone-400 font-normal leading-snug font-light">{title}</p>
+            <p className="text-lg md:text-xl text-stone-300 font-normal leading-normal text-pretty font-light">{title}</p>
           </div>
         </div>
 
-        <div className="w-5/12 p-8 flex items-center bg-white h-60">
-          <p className="text-sm md:text-base text-slate-700 leading-relaxed">
+        <div className="w-6/12 p-8 flex items-center bg-white h-60">
+          <p className="text-sm md:text-base text-slate-800 leading-relaxed">
             {bio}
           </p>
         </div>
